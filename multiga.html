@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+	<!-- 網站標題 -->
+	<title>Multi GA Test</title>
+	
+	<!-- 自己這個 site 要用的 CSS-->
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-78623111-1', 'auto');
+	  ga('create', 'UA-78623111-2', 'auto', 'clientTracker');
+	  ga('send', 'pageview');
+	  ga('clientTracker.send', 'pageview');
+
+	</script>
+
+	<script>
+	function submitData(){
+		console.log('click');
+	}
+	</script>
+
+</head>
+
+<body onload="">
+	<div class="content-container">
+		<button type="button" onclick="javascript:submitData()">點我啊！！</button>
+	</div>
+</body>
+
